@@ -10,12 +10,9 @@ header{
     padding: 10px 0;
 }
 
-.col-15{
-    width: 15%;
-}
-
-.col-70{
-    width: 70%;
+footer{
+    padding-top: 10px;
+    background-color: black;
 }
 
 .row{
@@ -28,6 +25,10 @@ header{
     margin: 0 auto;
 }
 
+.container-sm{
+    max-width: 991px;
+}
+
 .margin-container{
     margin: 0 auto;
 }
@@ -36,10 +37,113 @@ header{
     border: 1px dashed black;
 }
 
+.border-column-white{
+    border: 1px dashed rgb(255, 255, 255);
+}
+
+/* LARGHEZZE */
+.col-15{
+    width: 15%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-16{
+    width: calc(100% / 6);
+}
+
+.col-32{
+    width: calc(100% / 6 * 2);
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+/* ALTEZZE */
 .height-50{
     height: 50px;
 }
 
+.height-300{
+    height: 300px;
+}
+
+.height-600{
+    height: 600px;
+}
+/* COLORI SFONDO */
 .bg-orange{
     background-color: orange;
+}
+
+.bg-darkblue{
+    background-color: rgb(6, 6, 106);
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-aquamarine{
+    background-color: aquamarine;
+}
+
+/* MARGIN E PADDING */
+.margin-y-30{
+    margin: 30px 0;
+}
+
+.padding-y-10{
+    padding: 10px 0;
+}
+
+.padding-y-30{
+    padding: 30px 0;
+}
+
+.margin-container{
+    margin: 0 auto;
+}
+
+.padding-top-10{
+    padding-top: 10px;
+}
+
+.padding-bottom-10{
+    padding-bottom: 10px;
+}
+
+/* FOOTER CSS */
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side{
+    padding: 10px;
 }
