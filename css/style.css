@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(157, 196, 231);
+    height: 75px;
+    padding: 10px 0;
+}
+
+.col-15{
+    width: 15%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.margin-container{
+    margin: 0 auto;
+}
+
+.border-column{
+    border: 1px dashed black;
+}
+
+.height-50{
+    height: 50px;
+}
+
+.bg-orange{
+    background-color: orange;
+}
